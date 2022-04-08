@@ -32,7 +32,7 @@ def onOneFileComplete():
     curProcess.config(text=str(curCompleteFileNum)+"/" + str(totalFileNum))
     top.update_idletasks()
 
-
+# 界面绘制
 def onGUI():
     global curProcess
     global totalFileNum
